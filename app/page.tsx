@@ -83,6 +83,7 @@ function Navbar() {
           ))}
           <a
             href="/pillmaa.apk"
+            download="pillmaa.apk"
             className="inline-flex items-center gap-2 rounded-full bg-pillmaa-primary px-5 py-3 text-sm font-semibold text-white shadow-lg shadow-pillmaa-primary/20 transition hover:-translate-y-0.5 hover:bg-pillmaa-dark"
           >
             <Download className="h-4 w-4" />
@@ -115,7 +116,7 @@ function Navbar() {
               {label}
             </a>
           ))}
-          <a href="/pillmaa.apk" className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-pillmaa-primary px-5 py-4 font-semibold text-white">
+          <a href="/pillmaa.apk" download="pillmaa.apk" className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-pillmaa-primary px-5 py-4 font-semibold text-white">
             <Download className="h-5 w-5" />
             Download APK
           </a>
@@ -280,7 +281,7 @@ function Hero() {
             PillMaa is a gentle, smart medicine reminder built with love for the mothers who forget, and the children who worry.
           </motion.p>
           <motion.div variants={fadeUp} className="mt-9 flex flex-col gap-4 sm:flex-row">
-            <a href="/pillmaa.apk" className="inline-flex items-center justify-center gap-2 rounded-full bg-pillmaa-primary px-7 py-4 font-semibold text-white shadow-xl shadow-pillmaa-primary/25 transition hover:-translate-y-1 hover:bg-pillmaa-dark">
+            <a href="/pillmaa.apk" download="pillmaa.apk" className="inline-flex items-center justify-center gap-2 rounded-full bg-pillmaa-primary px-7 py-4 font-semibold text-white shadow-xl shadow-pillmaa-primary/25 transition hover:-translate-y-1 hover:bg-pillmaa-dark">
               <Download className="h-5 w-5" />
               Download APK
             </a>
