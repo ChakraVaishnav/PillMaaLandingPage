@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #0f172a;
+  font-family: var(--font-inter), Inter, sans-serif;
+  cursor: default;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(26, 122, 74, 0.18);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.phone-screen-gradient {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(234, 245, 239, 0.9), transparent 34%),
+    linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+}
